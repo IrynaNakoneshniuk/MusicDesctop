@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "VM9hD1/0hxumfSq3BkKagC5iwbk2BjmXss2CNvuaFCOWVjrPvurMr9rsLH3FLnzcEZkAR5Lxa21t8FFY4aFfQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ZbooK\\source\\repos\\WpfApp3\\MusicDesk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZbooK\\.nuget\\packages\\devexpress.crossplatform.printing.drawingengine\\1.0.13\\devexpress.crossplatform.printing.drawingengine.1.0.13.nupkg.sha512",
+    "C:\\Users\\ZbooK\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\ZbooK\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512",
+    "C:\\Users\\ZbooK\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\ZbooK\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ZbooK\\.nuget\\packages\\sharpvectors.wpf\\1.8.1\\sharpvectors.wpf.1.8.1.nupkg.sha512",
+    "C:\\Users\\ZbooK\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

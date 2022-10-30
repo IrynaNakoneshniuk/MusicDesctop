@@ -1,0 +1,536 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "DevExpress.CrossPlatform.Printing.DrawingEngine/1.0.13": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/CairoSharp.dll": {},
+          "lib/netstandard2.0/DevExpress.CrossPlatform.Printing.DrawingEngine.dll": {},
+          "lib/netstandard2.0/GLibSharp.dll": {},
+          "lib/netstandard2.0/PangoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CairoSharp.dll": {},
+          "lib/netstandard2.0/DevExpress.CrossPlatform.Printing.DrawingEngine.dll": {},
+          "lib/netstandard2.0/GLibSharp.dll": {},
+          "lib/netstandard2.0/PangoSharp.dll": {}
+        }
+      },
+      "MaterialDesignColors/2.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.6.1": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "[2.0.9, 3.0.0)"
+        },
+        "compile": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/MaterialDesignThemes.targets": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "SharpVectors.Wpf/1.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/SharpVectors.Converters.Wpf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Css.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Dom.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Model.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Rendering.Wpf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Runtime.Wpf.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SharpVectors.Converters.Wpf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Css.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Dom.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Model.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Rendering.Wpf.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Runtime.Wpf.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "System.Drawing.Common/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpress.CrossPlatform.Printing.DrawingEngine/1.0.13": {
+      "sha512": "iN0CBIC1KvVg3rCz6lUtjRED4c6wTjC67nOswoX74GkkA9NcdylA/fjfP2enqVMR+XeMGyYSbe2tAXki3mOsSA==",
+      "type": "package",
+      "path": "devexpress.crossplatform.printing.drawingengine/1.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "devexpress.crossplatform.printing.drawingengine.1.0.13.nupkg.sha512",
+        "devexpress.crossplatform.printing.drawingengine.nuspec",
+        "lib/netstandard2.0/CairoSharp.dll",
+        "lib/netstandard2.0/DevExpress.CrossPlatform.Printing.DrawingEngine.dll",
+        "lib/netstandard2.0/GLibSharp.dll",
+        "lib/netstandard2.0/PangoSharp.dll"
+      ]
+    },
+    "MaterialDesignColors/2.0.9": {
+      "sha512": "b4tdvxPZUCKCpxeCNFnF/+2Hug2cd+/SUGYCt+RXRRrobFYZkZQsIjlbsTGy5Hup9yPMMxqFSEXGRIxCm2JZUA==",
+      "type": "package",
+      "path": "materialdesigncolors/2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net462/MaterialDesignColors.dll",
+        "lib/net462/MaterialDesignColors.pdb",
+        "lib/net6.0/MaterialDesignColors.dll",
+        "lib/net6.0/MaterialDesignColors.pdb",
+        "lib/netcoreapp3.1/MaterialDesignColors.dll",
+        "lib/netcoreapp3.1/MaterialDesignColors.pdb",
+        "materialdesigncolors.2.0.9.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/4.6.1": {
+      "sha512": "Yx3RxIqkwoe1rYxoUZ2iH1YdCly+dA8YAQJ5uknsUVhyVd1rgiXEn6fmtsovGaqKRZwUXGHnh4w7kRagxa8TCg==",
+      "type": "package",
+      "path": "materialdesignthemes/4.6.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MaterialDesignThemes.targets",
+        "build/Resources/Roboto/Roboto-Black.ttf",
+        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
+        "build/Resources/Roboto/Roboto-Bold.ttf",
+        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
+        "build/Resources/Roboto/Roboto-Italic.ttf",
+        "build/Resources/Roboto/Roboto-Light.ttf",
+        "build/Resources/Roboto/Roboto-LightItalic.ttf",
+        "build/Resources/Roboto/Roboto-Medium.ttf",
+        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
+        "build/Resources/Roboto/Roboto-Regular.ttf",
+        "build/Resources/Roboto/Roboto-Thin.ttf",
+        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
+        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
+        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
+        "images/MaterialDesignThemes.Icon.png",
+        "lib/net462/MaterialDesignThemes.Wpf.dll",
+        "lib/net462/MaterialDesignThemes.Wpf.pdb",
+        "lib/net462/MaterialDesignThemes.Wpf.xml",
+        "lib/net6.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net6.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net6.0/MaterialDesignThemes.Wpf.xml",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.pdb",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.xml",
+        "materialdesignthemes.4.6.1.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/net472/Microsoft.Win32.SystemEvents.dll",
+        "ref/net472/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "SharpVectors.Wpf/1.8.1": {
+      "sha512": "2AoWUpEavXJ/W0QJdM53++U2T2HGfoKQRA+TvvJFpy8v/RLgNi7LCubIB8kgYBnYV7785G7TyCcOieBHU9YvMA==",
+      "type": "package",
+      "path": "sharpvectors.wpf/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/SharpVectors.Wpf.md",
+        "images/SharpVectors64.png",
+        "lib/License.txt",
+        "lib/net40/SharpVectors.Converters.Wpf.dll",
+        "lib/net40/SharpVectors.Converters.Wpf.xml",
+        "lib/net40/SharpVectors.Core.dll",
+        "lib/net40/SharpVectors.Core.xml",
+        "lib/net40/SharpVectors.Css.dll",
+        "lib/net40/SharpVectors.Css.xml",
+        "lib/net40/SharpVectors.Dom.dll",
+        "lib/net40/SharpVectors.Dom.xml",
+        "lib/net40/SharpVectors.Model.dll",
+        "lib/net40/SharpVectors.Model.xml",
+        "lib/net40/SharpVectors.Rendering.Wpf.dll",
+        "lib/net40/SharpVectors.Rendering.Wpf.xml",
+        "lib/net40/SharpVectors.Runtime.Wpf.dll",
+        "lib/net40/SharpVectors.Runtime.Wpf.xml",
+        "lib/net45/SharpVectors.Converters.Wpf.dll",
+        "lib/net45/SharpVectors.Converters.Wpf.xml",
+        "lib/net45/SharpVectors.Core.dll",
+        "lib/net45/SharpVectors.Core.xml",
+        "lib/net45/SharpVectors.Css.dll",
+        "lib/net45/SharpVectors.Css.xml",
+        "lib/net45/SharpVectors.Dom.dll",
+        "lib/net45/SharpVectors.Dom.xml",
+        "lib/net45/SharpVectors.Model.dll",
+        "lib/net45/SharpVectors.Model.xml",
+        "lib/net45/SharpVectors.Rendering.Wpf.dll",
+        "lib/net45/SharpVectors.Rendering.Wpf.xml",
+        "lib/net45/SharpVectors.Runtime.Wpf.dll",
+        "lib/net45/SharpVectors.Runtime.Wpf.xml",
+        "lib/net46/SharpVectors.Converters.Wpf.dll",
+        "lib/net46/SharpVectors.Converters.Wpf.xml",
+        "lib/net46/SharpVectors.Core.dll",
+        "lib/net46/SharpVectors.Core.xml",
+        "lib/net46/SharpVectors.Css.dll",
+        "lib/net46/SharpVectors.Css.xml",
+        "lib/net46/SharpVectors.Dom.dll",
+        "lib/net46/SharpVectors.Dom.xml",
+        "lib/net46/SharpVectors.Model.dll",
+        "lib/net46/SharpVectors.Model.xml",
+        "lib/net46/SharpVectors.Rendering.Wpf.dll",
+        "lib/net46/SharpVectors.Rendering.Wpf.xml",
+        "lib/net46/SharpVectors.Runtime.Wpf.dll",
+        "lib/net46/SharpVectors.Runtime.Wpf.xml",
+        "lib/net47/SharpVectors.Converters.Wpf.dll",
+        "lib/net47/SharpVectors.Converters.Wpf.xml",
+        "lib/net47/SharpVectors.Core.dll",
+        "lib/net47/SharpVectors.Core.xml",
+        "lib/net47/SharpVectors.Css.dll",
+        "lib/net47/SharpVectors.Css.xml",
+        "lib/net47/SharpVectors.Dom.dll",
+        "lib/net47/SharpVectors.Dom.xml",
+        "lib/net47/SharpVectors.Model.dll",
+        "lib/net47/SharpVectors.Model.xml",
+        "lib/net47/SharpVectors.Rendering.Wpf.dll",
+        "lib/net47/SharpVectors.Rendering.Wpf.xml",
+        "lib/net47/SharpVectors.Runtime.Wpf.dll",
+        "lib/net47/SharpVectors.Runtime.Wpf.xml",
+        "lib/net48/SharpVectors.Converters.Wpf.dll",
+        "lib/net48/SharpVectors.Converters.Wpf.xml",
+        "lib/net48/SharpVectors.Core.dll",
+        "lib/net48/SharpVectors.Core.xml",
+        "lib/net48/SharpVectors.Css.dll",
+        "lib/net48/SharpVectors.Css.xml",
+        "lib/net48/SharpVectors.Dom.dll",
+        "lib/net48/SharpVectors.Dom.xml",
+        "lib/net48/SharpVectors.Model.dll",
+        "lib/net48/SharpVectors.Model.xml",
+        "lib/net48/SharpVectors.Rendering.Wpf.dll",
+        "lib/net48/SharpVectors.Rendering.Wpf.xml",
+        "lib/net48/SharpVectors.Runtime.Wpf.dll",
+        "lib/net48/SharpVectors.Runtime.Wpf.xml",
+        "lib/net5.0-windows7.0/SharpVectors.Converters.Wpf.dll",
+        "lib/net5.0-windows7.0/SharpVectors.Converters.Wpf.xml",
+        "lib/net5.0-windows7.0/SharpVectors.Core.dll",
+        "lib/net5.0-windows7.0/SharpVectors.Core.xml",
+        "lib/net5.0-windows7.0/SharpVectors.Css.dll",
+        "lib/net5.0-windows7.0/SharpVectors.Css.xml",
+        "lib/net5.0-windows7.0/SharpVectors.Dom.dll",
+        "lib/net5.0-windows7.0/SharpVectors.Dom.xml",
+        "lib/net5.0-windows7.0/SharpVectors.Model.dll",
+        "lib/net5.0-windows7.0/SharpVectors.Model.xml",
+        "lib/net5.0-windows7.0/SharpVectors.Rendering.Wpf.dll",
+        "lib/net5.0-windows7.0/SharpVectors.Rendering.Wpf.xml",
+        "lib/net5.0-windows7.0/SharpVectors.Runtime.Wpf.dll",
+        "lib/net5.0-windows7.0/SharpVectors.Runtime.Wpf.xml",
+        "lib/net6.0-windows7.0/SharpVectors.Converters.Wpf.dll",
+        "lib/net6.0-windows7.0/SharpVectors.Converters.Wpf.xml",
+        "lib/net6.0-windows7.0/SharpVectors.Core.dll",
+        "lib/net6.0-windows7.0/SharpVectors.Core.xml",
+        "lib/net6.0-windows7.0/SharpVectors.Css.dll",
+        "lib/net6.0-windows7.0/SharpVectors.Css.xml",
+        "lib/net6.0-windows7.0/SharpVectors.Dom.dll",
+        "lib/net6.0-windows7.0/SharpVectors.Dom.xml",
+        "lib/net6.0-windows7.0/SharpVectors.Model.dll",
+        "lib/net6.0-windows7.0/SharpVectors.Model.xml",
+        "lib/net6.0-windows7.0/SharpVectors.Rendering.Wpf.dll",
+        "lib/net6.0-windows7.0/SharpVectors.Rendering.Wpf.xml",
+        "lib/net6.0-windows7.0/SharpVectors.Runtime.Wpf.dll",
+        "lib/net6.0-windows7.0/SharpVectors.Runtime.Wpf.xml",
+        "lib/netcoreapp3.1/SharpVectors.Converters.Wpf.dll",
+        "lib/netcoreapp3.1/SharpVectors.Converters.Wpf.xml",
+        "lib/netcoreapp3.1/SharpVectors.Core.dll",
+        "lib/netcoreapp3.1/SharpVectors.Core.xml",
+        "lib/netcoreapp3.1/SharpVectors.Css.dll",
+        "lib/netcoreapp3.1/SharpVectors.Css.xml",
+        "lib/netcoreapp3.1/SharpVectors.Dom.dll",
+        "lib/netcoreapp3.1/SharpVectors.Dom.xml",
+        "lib/netcoreapp3.1/SharpVectors.Model.dll",
+        "lib/netcoreapp3.1/SharpVectors.Model.xml",
+        "lib/netcoreapp3.1/SharpVectors.Rendering.Wpf.dll",
+        "lib/netcoreapp3.1/SharpVectors.Rendering.Wpf.xml",
+        "lib/netcoreapp3.1/SharpVectors.Runtime.Wpf.dll",
+        "lib/netcoreapp3.1/SharpVectors.Runtime.Wpf.xml",
+        "sharpvectors.wpf.1.8.1.nupkg.sha512",
+        "sharpvectors.wpf.nuspec"
+      ]
+    },
+    "System.Drawing.Common/4.7.0": {
+      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "type": "package",
+      "path": "system.drawing.common/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.4.7.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "DevExpress.CrossPlatform.Printing.DrawingEngine >= 1.0.13",
+      "MaterialDesignThemes >= 4.6.1",
+      "SharpVectors.Wpf >= 1.8.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ZbooK\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ZbooK\\source\\repos\\WpfApp3\\MusicDesk.csproj",
+      "projectName": "MusicDesk",
+      "projectPath": "C:\\Users\\ZbooK\\source\\repos\\WpfApp3\\MusicDesk.csproj",
+      "packagesPath": "C:\\Users\\ZbooK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ZbooK\\source\\repos\\WpfApp3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ZbooK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "DevExpress.CrossPlatform.Printing.DrawingEngine": {
+            "target": "Package",
+            "version": "[1.0.13, )"
+          },
+          "MaterialDesignThemes": {
+            "target": "Package",
+            "version": "[4.6.1, )"
+          },
+          "SharpVectors.Wpf": {
+            "target": "Package",
+            "version": "[1.8.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

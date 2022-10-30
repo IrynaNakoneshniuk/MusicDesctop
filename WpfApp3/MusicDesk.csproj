@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\Center\edSheeran.png" />
+    <None Remove="assets\Center\GroupButton.png" />
+    <None Remove="assets\Center\Popular.png" />
+    <None Remove="assets\Center\Style.png" />
+    <None Remove="assets\RightBar\AccountIcon.png" />
+    <None Remove="assets\RightBar\AlsoLike.png" />
+    <None Remove="assets\RightBar\Icon.png" />
+    <None Remove="assets\RightBar\RecentPlayed.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.CrossPlatform.Printing.DrawingEngine" Version="1.0.13" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+    <PackageReference Include="SharpVectors.Wpf" Version="1.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\Center\edSheeran.png" />
+    <Resource Include="assets\Center\GroupButton.png" />
+    <Resource Include="assets\Center\Popular.png" />
+    <Resource Include="assets\Center\Style.png" />
+    <Resource Include="assets\RightBar\AlsoLike.png" />
+    <Resource Include="assets\RightBar\Icon.png" />
+    <Resource Include="assets\RightBar\RecentPlayed.png" />
+  </ItemGroup>
+
+</Project>

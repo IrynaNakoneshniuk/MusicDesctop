@@ -1,0 +1,163 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WpfApp3/1.0.0": {
+        "dependencies": {
+          "DevExpress.CrossPlatform.Printing.DrawingEngine": "1.0.13",
+          "MaterialDesignThemes": "4.6.1",
+          "SharpVectors.Wpf": "1.8.1"
+        },
+        "runtime": {
+          "WpfApp3.dll": {}
+        }
+      },
+      "DevExpress.CrossPlatform.Printing.DrawingEngine/1.0.13": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CairoSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/DevExpress.CrossPlatform.Printing.DrawingEngine.dll": {
+            "assemblyVersion": "1.0.13.0",
+            "fileVersion": "1.0.13.0"
+          },
+          "lib/netstandard2.0/GLibSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/PangoSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MaterialDesignColors/2.0.9": {
+        "runtime": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.0.9.0",
+            "fileVersion": "2.0.9.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.6.1": {
+        "dependencies": {
+          "MaterialDesignColors": "2.0.9"
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.6.1.0",
+            "fileVersion": "4.6.1.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "SharpVectors.Wpf/1.8.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/SharpVectors.Converters.Wpf.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Core.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Css.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Dom.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Model.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Rendering.Wpf.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          },
+          "lib/net6.0-windows7.0/SharpVectors.Runtime.Wpf.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.CrossPlatform.Printing.DrawingEngine/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iN0CBIC1KvVg3rCz6lUtjRED4c6wTjC67nOswoX74GkkA9NcdylA/fjfP2enqVMR+XeMGyYSbe2tAXki3mOsSA==",
+      "path": "devexpress.crossplatform.printing.drawingengine/1.0.13",
+      "hashPath": "devexpress.crossplatform.printing.drawingengine.1.0.13.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b4tdvxPZUCKCpxeCNFnF/+2Hug2cd+/SUGYCt+RXRRrobFYZkZQsIjlbsTGy5Hup9yPMMxqFSEXGRIxCm2JZUA==",
+      "path": "materialdesigncolors/2.0.9",
+      "hashPath": "materialdesigncolors.2.0.9.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yx3RxIqkwoe1rYxoUZ2iH1YdCly+dA8YAQJ5uknsUVhyVd1rgiXEn6fmtsovGaqKRZwUXGHnh4w7kRagxa8TCg==",
+      "path": "materialdesignthemes/4.6.1",
+      "hashPath": "materialdesignthemes.4.6.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "SharpVectors.Wpf/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2AoWUpEavXJ/W0QJdM53++U2T2HGfoKQRA+TvvJFpy8v/RLgNi7LCubIB8kgYBnYV7785G7TyCcOieBHU9YvMA==",
+      "path": "sharpvectors.wpf/1.8.1",
+      "hashPath": "sharpvectors.wpf.1.8.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    }
+  }
+}
